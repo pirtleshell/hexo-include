@@ -1,22 +1,21 @@
 # hexo-include
-
-A [Hexo](https://github.com/hexojs/hexo) plugin for including the raw content of a text file into a post directly from its markdown. Easily insert pre-written HMTL, JS, or the contents of _any_ text file into the body of your post or page.
-
-## Usage
-
-Insert the following into the post's markdown where you want the contents of the external file inserted. All file paths are relative to your `source` directory.
-```
-{% include path/to/file.bar %}
-```
+---
+A Hexo plugin for including the raw content of a text file into a post. Easily insert pre-written HMTL, JS, or _any_ text file into the body of your post or page.
 
 ## Install
-
-Install with [npm](https://www.npmjs.com/) from the base directory of your Hexo site:
-
+---
 ```
 $ npm install --save hexo-include
 ```
 
-## License
+## Usage
+---
+All file paths are relative to your `source` directory.
+```
+{% include path/to/file.bar %}
+```
 
-MIT (c) 2016 Robert Pirtle.
+## License
+---
+MIT
+>>>>>>> 85272540653770ccc9a19f2c24aa783bce3c6cbc
