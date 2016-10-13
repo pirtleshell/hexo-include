@@ -1,11 +1,10 @@
-#!
-'use strict';
-
-var should = require('chai').should(); // eslint-disable-line
+/* eslint-env node, mocha */
 
 var pathFn = require('path');
-var fs = require('hexo-fs');
+var should = require('chai').should();
 var Hexo = require('hexo');
+var fs = require('hexo-fs');
+
 var hexo = new Hexo(pathFn.join(__dirname, 'include_test'));
 
 var include = require('../lib/include.js')(hexo);
