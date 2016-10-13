@@ -1,3 +1,4 @@
+#!
 'use strict';
 
 var should = require('chai').should(); // eslint-disable-line
@@ -9,7 +10,7 @@ var hexo = new Hexo(pathFn.join(__dirname, 'include_test'));
 
 var include = require('../lib/include.js')(hexo);
 
-describe('include tag', function() {
+describe('Include tag', function() {
   var filePath = pathFn.join(hexo.source_dir, 'test_dir/test.html');
   var emptyPath = pathFn.join(hexo.source_dir, 'test_dir/empty.html');
 
